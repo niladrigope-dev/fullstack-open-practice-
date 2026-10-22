@@ -10,9 +10,9 @@ const App = () => {
 
     return (
         <div>
-            <button onclick = {hello("world")}>button</button>
-            <button onclick = {hello("react")}>button</button>
-            <button onclick = {hello("function")}>button</button>
+            <button onclick = {Hello("world")}>button</button>
+            <button onclick = {Hello("react")}>button</button>
+            <button onclick = {Hello("function")}>button</button>
         </div>
     )
 }
