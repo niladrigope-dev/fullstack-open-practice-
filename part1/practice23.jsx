@@ -3,7 +3,7 @@ const App = () => {
   const [value, setValue] = useState(10)
   
 
-  const setToValue = (newValue) => () => {
+  const setToValue = (newValue) => {
     console.log('value now', newValue)  // print the new value to console
     setValue(newValue)
   }
