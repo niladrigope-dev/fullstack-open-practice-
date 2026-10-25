@@ -3,6 +3,7 @@ import Note from './components/Note'
 const App = ({ notes }) => {
 
   console.log("App works...")
+  console.log(notes)
   return (
     <div>
       <h1>Notes</h1>
