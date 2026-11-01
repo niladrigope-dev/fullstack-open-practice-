@@ -11,3 +11,4 @@ const App = ({notes}) => {
         </div>
     )
 }
+
